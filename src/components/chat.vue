@@ -95,7 +95,7 @@ import moment from 'moment';
 export default {
   data() {
     return {
-      socket: io("http://localhost:3000"),
+      socket: io("https://dinhtuchat-api.herokuapp.com"),
       users: [],
       messagesRecive: "",
       messagesSend: "",
