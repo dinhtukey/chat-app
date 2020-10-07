@@ -244,15 +244,5 @@ export default {
 
 <style scoped>
   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
-  @import url("../assets/css/chat/style.css");
-  .sidebar-dark #sidebarToggle {
-    background-color: hsla(0,0%,100%,.2);
-}
-.sidebar #sidebarToggle {
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    cursor: pointer;
-}
+  @import url("../assets/css/chat/chat.css");
 </style>
