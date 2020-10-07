@@ -9,7 +9,7 @@
             <div class="recent_heading">
               <h4>Online</h4>
             </div>
-            <div class="srch_bar">
+            <!-- <div class="srch_bar">
               <div class="stylish-input-group">
                 <form @submit.prevent="handleSearch"> 
                     <input v-model="searchName" type="text" class="search-bar" placeholder="Search" />
@@ -20,7 +20,7 @@
                     </span>
                 </form>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="inbox_chat">
             <template v-if="users">
@@ -35,7 +35,7 @@
                         {{user.name}}
                         <span class="chat_date">{{user.date}}</span>
                       </h5>
-                      <p>ID:{{user.id}}</p>
+                      <!-- <p>ID:{{user.id}}</p> -->
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default {
         createdAt: new Date()
       };
       const dataSend = {
-        from: "you",
+        from: "You",
         text: data.text,
         createdAt: new Date()
       };
