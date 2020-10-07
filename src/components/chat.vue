@@ -1,7 +1,7 @@
 <template>
 <body>
   <div class="container">
-    <h3 class="text-center title"><i class="fa fa-comment-o"></i> CHAT BOX</h3>
+    <h3 class="text-center title"><i class="fa fa-comment-o"></i> DINHTUCHAT</h3>
     <div class="messaging">
       <div class="inbox_msg">
         <div class="inbox_people">
